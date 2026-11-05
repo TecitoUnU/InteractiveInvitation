@@ -17,12 +17,12 @@ export const invitation = {
   /** Textos principales */
   copy: {
     kicker: '',
-    welcome: '¡Estás invitado a celebrar conmigo un día muy especial!',
+    welcome: 'Con mucho cariño te invitamos a celebrar mi primer añito',
     detailsLabel: 'El gran día',
     countdownLabel: 'Falta muy poquito',
     countdownDone: '¡Hoy es el gran día!',
     countdownDoneSub: 'Prepárate para celebrar juntos. 🍓',
-    finalMessage: 'Con mucha alegría te invitamos a celebrar el primer añito de nuestra princesa Lauren Mariana💗',
+    finalMessage: 'Con mucha alegría te invitamos a celebrar el primer añito de nuestra princesa💗',
     signature: 'Con amor,',
     footerNote: 'Hecha con amor y muchas fresitas',
     openHint: 'Toca el sello para abrir tu invitación',
@@ -37,7 +37,7 @@ export const invitation = {
      * Si el año ya pasó, el contador mostrará el mensaje de celebración.
      */
     dateISO: '2026-11-15T15:00:00',
-    dateLabel: '15 de noviembre',
+    dateLabel: 'Domingo 15 de noviembre',
     dateYear: '2026',
     timeLabel: '3:00 PM',
     venueName: 'Rancho el Pedregal',
