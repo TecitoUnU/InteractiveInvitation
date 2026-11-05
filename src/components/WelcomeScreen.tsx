@@ -38,7 +38,7 @@ export function WelcomeScreen({ autoOpen, onOpened }: WelcomeScreenProps) {
 
       <div className="relative z-10 flex min-h-[100svh] flex-col items-center px-4 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-[max(0.75rem,env(safe-area-inset-top))]">
         <motion.header
-          className="flex flex-col items-center pt-14 text-center sm:pt-16"
+          className="relative z-30 flex flex-col items-center pt-14 text-center sm:pt-16"
           animate={fade}
           transition={{ duration: reduceMotion ? 0.2 : 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
