@@ -1,0 +1,17 @@
+# Configuración de despliegue para Netlify.
+# Este archivo debe estar en la RAÍZ del repositorio conectado a Netlify.
+#
+# Si tu repositorio contiene la app dentro de una subcarpeta
+# (por ejemplo "tarjetaPolet/"), añade:
+#
+#   base = "tarjetaPolet"
+#
+# debajo de [build], o configura esa carpeta como "Base directory"
+# en Netlify → Site configuration → Build & deploy → Build settings.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
