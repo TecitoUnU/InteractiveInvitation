@@ -48,7 +48,7 @@ export const invitation = {
      * un enlace de "Compartir" o una búsqueda por nombre.
      */
     mapsUrl:
-      'https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n+de+Eventos+Infinity',
+      'https://maps.app.goo.gl/FpyUXLYEr2gNUgE57',
   },
 
   /** Confirmación por WhatsApp */
