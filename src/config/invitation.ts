@@ -67,7 +67,7 @@ export const invitation = {
 
   /** Música ambiental (el navegador sólo la reproduce tras un clic) */
   music: {
-    src: '/audio/garden-ambience.mp3',
+    src: '/audio/Strawberry Shortcake Theme song 2003 (Straw Buh-buh-buh-berry Shortcake).mp3',
     title: 'Música del jardín',
     volume: 0.35,
     loop: true,
