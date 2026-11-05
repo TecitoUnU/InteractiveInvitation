@@ -151,14 +151,16 @@ export const Envelope = forwardRef<EnvelopeHandle, EnvelopeProps>(
 
                   <div className="relative z-10 flex w-full flex-col items-center px-3 text-center">
                     <span className="font-serif text-[7px] font-semibold uppercase tracking-[0.34em] text-strawberry/70 sm:text-[8px]">
-                      Estás invitada
-                    </span>
-                    <p className="mt-0.5 font-script text-[clamp(16px,4.6vw,22px)] leading-none text-ink-soft">
-                      Para ti
-                    </p>
-                    <p className="mt-0.5 font-display text-[clamp(24px,7.2vw,36px)] leading-[1.1] text-strawberry">
-                      {invitation.celebrant.name}
-                    </p>
+      Estás invitado
+    </span>
+
+    <p className="mt-0.5 font-script text-[clamp(16px,4.6vw,22px)] leading-none text-ink-soft">
+      a celebrar
+    </p>
+
+    <p className="mt-0.5 font-display text-[clamp(24px,7.2vw,36px)] leading-[1.12] text-strawberry">
+      Mi primer Añito
+    </p>
                     <div className="dotted-rule my-1.5 w-14" />
                     <p className="font-serif text-[7px] font-semibold uppercase tracking-[0.22em] text-ink-soft sm:text-[8px]">
                       {invitation.event.dateLabel} · {invitation.event.timeLabel}
