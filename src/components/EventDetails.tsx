@@ -1,4 +1,4 @@
-import { CalendarDays, Clock, MapPin, UserRound } from 'lucide-react'
+import { CalendarDays, Clock, MapPin, Shirt ,UserRound } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { invitation } from '../config/invitation'
 import { Daisy } from './illustrations/Daisy'
@@ -36,6 +36,11 @@ export function EventDetails() {
       value: invitation.event.venueName,
       note: invitation.event.venueAddress || undefined,
     },
+    {
+  icon: Shirt,
+  label: 'Código de vestimenta',
+  value: invitation.event.dressCode,
+},
   ]
 
   return (
