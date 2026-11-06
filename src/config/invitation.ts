@@ -43,6 +43,7 @@ export const invitation = {
     venueName: 'Rancho el Pedregal',
     /** Puedes escribir una dirección o dejar el texto vacío */
     venueAddress: '',
+    dressCode: 'Viste de rojo o rosado',
     /**
      * URL de Google Maps. Puedes usar un enlace corto de Google Maps,
      * un enlace de "Compartir" o una búsqueda por nombre.
