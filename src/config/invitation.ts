@@ -17,7 +17,7 @@ export const invitation = {
   /** Textos principales */
   copy: {
     kicker: '',
-    welcome: 'Con mucho cariño te invitamos a celebrar mi primer añito',
+    welcome: 'Festejemos Juntos',
     detailsLabel: 'El gran día',
     countdownLabel: 'Falta muy poquito',
     countdownDone: '¡Hoy es el gran día!',
