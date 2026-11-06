@@ -16,7 +16,7 @@ export function EventDetails() {
   const rows: DetailRow[] = [
     {
       icon: UserRound,
-      label: 'Nombre',
+      label: 'Con mucho cariño te invito a celebrar mi primer añito',
       value: invitation.celebrant.name,
     },
     {
